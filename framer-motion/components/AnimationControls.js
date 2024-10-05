@@ -3,7 +3,7 @@ import React from "react";
 import { motion, useAnimationControls } from "framer-motion";
 
 const AnimationControls = () => {
-  // use animation control to target our div and switch inital varian to flip variant
+  // use animation control to target our div and switch inital variant to flip variant
   const controls = useAnimationControls();
   const handleClick = () => {
     controls.start("flip");
